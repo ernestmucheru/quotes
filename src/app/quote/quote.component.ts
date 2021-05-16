@@ -9,12 +9,12 @@ import { Quote } from '../quote'
 export class QuoteComponent implements OnInit {
 
   Quotes = [
-    new Quote(1, 'Life is like a river'),
-    new Quote(2, 'River is like a tree'),
-    new Quote(3, 'Tree is like wind'),
-    new Quote(4, 'Wind is like a mountain'),
-    new Quote(5, 'Mountain is like an ocean'),
-    new Quote(6, 'Oceans are fed by rivers'),
+    new Quote(1, 'Life is like a river', 'Despite everything, it keeps moving'),
+    new Quote(2, 'River is like a tree', 'life giving in its nature'),
+    new Quote(3, 'Tree is like wind', 'knows all our secrets,whispers them to nature'),
+    new Quote(4, 'Wind is like a mountain','too big, to high,too cold to catch up'),
+    new Quote(5, 'Mountain is like an ocean', 'vast like our thoughts. Beyond human understanding'),
+    new Quote(6, 'Oceans are fed by rivers','everything is connected'),
   ]
   constructor() { }
   ngOnInit(): void {
