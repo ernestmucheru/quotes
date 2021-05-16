@@ -22,5 +22,10 @@ export class QuoteComponent implements OnInit {
   constructor() { }
   ngOnInit(): void {
   }
+  completeQuote(isComplete,index){
+    if (isComplete){
+      this.Quotes.splice(index,1)
+    }
+  }
 
 }
