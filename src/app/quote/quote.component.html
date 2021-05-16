@@ -2,9 +2,9 @@
 <hr>
 <ul>
     <div *ngFor='let quote of Quotes;let i=index'>
-        <li>{{quote.name}}</li>
+        <li>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</li>
         <button (click)='toggleDetails(i)'>Toggle Details</button>
         <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='completeQuote($event,i)'></app-quote-details>
     </div>
 </ul>
-<p *ngIf='Quotes.length'>You have too many quotes</p>
+<p *ngIf='Quotes.length>5'>You have too many quotes</p>
