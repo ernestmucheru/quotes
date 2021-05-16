@@ -20,7 +20,7 @@ export class QuoteComponent implements OnInit {
     this.Quotes[index].showDescription=!this.Quotes[index].showDescription;
   }
 
-  deleteleteQuote(isComplete,index){
+  deleteQuote(isComplete,index){
     if (isComplete){
       this.Quotes.splice(index,1);
       let toDelete=confirm(`Are you sure you want to delete ${this.Quotes[index].name}`)
