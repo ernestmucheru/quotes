@@ -9,12 +9,12 @@ import { Quote } from '../quote'
 export class QuoteComponent implements OnInit {
 
   Quotes = [
-    new Quote(1, 'Life is like a river', 'Despite everything, keep moving', new Date(2018,2,3)),
-    new Quote(2, 'River is like a tree', 'life giving as you and I were meant to be',new Date(2018,2,3)),
-    new Quote(3, 'Tree is like wind', 'break speed of those attacking youre way, but also uproot those holding you up from your destiny',new Date(2018,2,3)),
-    new Quote(4, 'Wind is like a mountain','Too big, to high,too cold. They will never figure you', new Date(2018,2,3)),
-    new Quote(5, 'Mountain is like an ocean', 'Think vast, Beyond human understanding',new Date(2018,2,3)),
-    new Quote(6, 'Oceans are fed by rivers','Everything is connected',new Date(2018,2,3)),
+    new Quote(1, 'Nelson Mandela', "The greatest glory in living lies not in never falling, but in rising every time we fall.", new Date(2018,2,3)),
+    new Quote(2, 'Walt Disney', "The way to get started is to quit talking and begin doing.",new Date(2018,2,3)),
+    new Quote(3, 'Steve Jobs', "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.",new Date(2018,2,3)),
+    new Quote(4, 'Eleanor Roosevelt',"If life were predictable it would cease to be life, and be without flavor.", new Date(2018,2,3)),
+    new Quote(5, 'Oprah Winfrey', "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.",new Date(2018,2,3)),
+    new Quote(6, 'James Cameron',"If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.",new Date(2018,2,3)),
   ]
   toggleDetails(index){
     this.Quotes[index].showDescription=!this.Quotes[index].showDescription;

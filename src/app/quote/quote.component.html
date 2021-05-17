@@ -5,7 +5,7 @@
         <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
     </div>
     <div *ngFor='let quote of Quotes;let i=index'>
-        <li>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</li>
+        <li>{{quote.name}} submitted on {{quote.completeDate|date|uppercase}}</li>
         <button class="btn btn-primary" (click)='toggleDetails(i)'>Toggle Details</button>
         <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
     </div>
