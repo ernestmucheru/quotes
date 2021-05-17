@@ -1,0 +1,29 @@
+.displaytext {
+    font-size: 15px;
+  }
+  
+  #addquote {
+    font-family: 'Cabin Sketch', cursive;
+  }
+  
+  .form1 {
+     width: 800px;
+    padding: 4px;
+    margin: 8px 0;
+     border: 4px solid rgb(5, 19, 209);
+    color: blue;
+   border-radius: 4%;
+  
+  }
+  
+  .form2 {
+    width: 800px;
+    border: 4px solid rgb(5, 19, 209);
+    color:blue;
+    border-radius: 4%;
+  }
+  
+  #addquote{
+    margin-left: 50%;
+    margin-top: -10%;
+  }
