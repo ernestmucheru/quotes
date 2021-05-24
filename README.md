@@ -25,7 +25,7 @@ This is a Quote application created that allows users to add Quotes view them an
 
  you can check the checkout the following link for installation instructions~
 
- Link~ https://ernestmucheru.github.io/quotes/
+ Link~ ernestmucheru.github.io/quotes/
 
 ## Requirements
 
